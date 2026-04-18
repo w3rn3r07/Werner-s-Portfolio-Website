@@ -1,0 +1,84 @@
+body{
+    background-image: url('./assets/images/road.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    margin-right: 0;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: #001f3d;
+    height: 350px;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+}
+img{
+    height: 280px;
+    width: 230px;
+}
+.text{
+    color: #f8dcbf;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+nav{
+    padding-top: 0;
+    background-color: #001f3d;
+    height: 50px;
+    width: 300px;
+
+}
+.nav-list{
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: #f8dcbf;
+}
+.nav-list > li{
+    background-color: #00498f;
+    border-radius: 10px;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+}
+li a{
+    text-decoration: none; /* Removes the underline */
+    color: #f8dcbf;           /* Changes text color to dark gray */
+    font-weight: bold;     /* Makes text bold */
+    padding: 5px 10px;     /* Adds space around the text */
+}
+button{
+    margin-top: 15em;
+    float: right;
+    background-color: #00498f;
+    border-radius: 10px;
+    color: #f8dcbf;
+    height: 1.5rem;
+    width: 4rem;
+    font-size: 1rem;
+    border: none;
+}
+button:hover{
+    background-color: cornflowerblue;
+    transition: 0.25s;
+}
+.nav-list > li:hover{
+    background-color: cornflowerblue;
+    transition: 0.25s;
+}
+.nav-btns{
+    display: flex;
+    justify-content: space-evenly;
+    width: 210px;
+}
