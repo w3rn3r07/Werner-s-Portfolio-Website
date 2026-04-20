@@ -13,19 +13,22 @@ section{
 }
 .container{
     background-color: #001f3d;
-    height: 350px;
-    width: 800px;
+    height: 21.88rem;
+    min-width: 50rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 img{
-    height: 280px;
-    width: 230px;
+    height: 17.5rem;
+    width: 14.37rem;
 }
 .text{
     color: #f8dcbf;
+}
+p{
+    margin: 0;
 }
 header{
     display: flex;
@@ -34,8 +37,8 @@ header{
 nav{
     padding-top: 0;
     background-color: #001f3d;
-    height: 50px;
-    width: 300px;
+    height: 3.13rem;
+    width: 18.75rem;
 
 }
 .nav-list{
@@ -47,22 +50,22 @@ nav{
 }
 .nav-list > li{
     background-color: #00498f;
-    border-radius: 10px;
-    height: 20px;
-    width: 80px;
+    border-radius: 0.73rem;
+    height: 1.25rem;
+    width: 5.2rem;
     text-align: center;
 }
 li a{
     text-decoration: none; /* Removes the underline */
     color: #f8dcbf;           /* Changes text color to dark gray */
     font-weight: bold;     /* Makes text bold */
-    padding: 5px 10px;     /* Adds space around the text */
+    padding: 0.31rem 0.73rem;     /* Adds space around the text */
 }
 button{
     margin-top: 15em;
     float: right;
     background-color: #00498f;
-    border-radius: 10px;
+    border-radius: 0.73rem;
     color: #f8dcbf;
     height: 1.5rem;
     width: 4rem;
@@ -80,5 +83,29 @@ button:hover{
 .nav-btns{
     display: flex;
     justify-content: space-evenly;
-    width: 210px;
+    width: 13.13rem;
+}
+
+
+@media (min-width: 320px) AND (max-width: 768px){
+    .container{
+        flex-direction: column;
+        min-width: 100%;
+        height: auto;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+    nav{
+        width: 100%;
+    }
+    button{
+        margin-top: 1rem;
+    }
+
+}
+@media (min-width: 768px) AND (max-width: 992px){
+    
+}
+@media (min-width: 992px){
+    
 }
